@@ -52,8 +52,8 @@ function Task() {
         </div>
 
         {/* Input Section */}
-        <div className="bg-white rounded-2xl shadow-lg p-6 mb-6">
-          <div className="flex gap-3">
+        <div className="bg-white rounded-2xl shadow-lg p-6 mb-6  ">
+          <div className="flex gap-3 flex flex-col sm:flex-row">
             <input
               type="text"
               value={inputValue}
