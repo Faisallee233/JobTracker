@@ -52,7 +52,7 @@ function Task() {
         </div>
 
         {/* Input Section */}
-        <div className="bg-white rounded-2xl shadow-lg p-6 mb-6 flex flex-col sm:flex-row gap-4">
+        <div className="bg-white rounded-2xl shadow-lg p-6 mb-6">
           <div className="flex gap-3">
             <input
               type="text"
@@ -64,7 +64,7 @@ function Task() {
             />
             <button
               onClick={addJob}
-              className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl font-medium transition-all duration-200 flex-1  items-center gap-2 shadow-md hover:shadow-lg"
+              className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl font-medium transition-all duration-200 flex items-center gap-2 shadow-md hover:shadow-lg"
             >
               <Plus size={20} />
               Add Job
